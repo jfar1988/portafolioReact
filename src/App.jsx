@@ -1,5 +1,6 @@
 import Contact from "./components/Contact";
 import Main from "./components/Main";
+import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Sidenav from "./components/Sidenav";
 import Work from "./components/Work";
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Sidenav />
       <Main />
+      <Profile />
       <Work />
       <Projects />
       <Contact />
