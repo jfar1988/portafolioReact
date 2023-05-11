@@ -6,7 +6,7 @@ import {
   FaInstagram,
   FaLinkedin,
 } from "react-icons/fa";
-
+import { AiFillGithub } from "react-icons/Ai";
 const Main = () => {
   return (
     <div id="main">
@@ -43,10 +43,18 @@ const Main = () => {
             />
           </h2>
           <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaFacebookF className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedin className="cursor-pointer" size={20} />
+            <a href="https://twitter.com/JuanFer11969112">
+              <FaTwitter className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://github.com/jfar1988">
+              <AiFillGithub className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://www.instagram.com/juanfaguilarr/">
+              <FaInstagram className="cursor-pointer" size={20} />
+            </a>
+            <a href="https://www.linkedin.com/in/juan-fer-aguilar/">
+              <FaLinkedin className="cursor-pointer" size={20} />
+            </a>
           </div>
         </div>
       </div>
