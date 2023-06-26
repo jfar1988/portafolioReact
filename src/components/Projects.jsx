@@ -9,10 +9,10 @@ const Projects = () => {
         Projects
       </h1>
       <p className="text-center py-8">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid id
-        porro impedit quibusdam laudantium exercitationem pariatur molestiae,
-        odio doloribus iste accusamus, dolores esse cum debitis vitae blanditiis
-        hic similique soluta!
+        Proyectos realizados con React, JavaScript, NodeJS, ThreeJs, Redux,
+        Props, Tailwindcss entre otros. Proyectos personales que demuestran mi
+        gran interes por el area de FullStack Development y Diseño de personajes
+        3d con sus respectivos movimientos.
       </p>
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem
@@ -24,6 +24,11 @@ const Projects = () => {
           title="Pokemon"
           image="https://c4.wallpaperflare.com/wallpaper/677/922/425/pokemon-pokemon-red-and-blue-blastoise-pokemon-bulbasaur-pokemon-wallpaper-preview.jpg"
           more="https://stirring-custard-bfb10b.netlify.app/"
+        />
+        <ProjectItem
+          title="Prototype ThreeJs"
+          image="https://media.sketchfab.com/models/18aa1cc77e68491eb9e6a4532ff5ddb2/thumbnails/f80b25b01dba4478bbc9615c0df664a4/5f4a0eb99ed941c894f1a184f182a878.jpeg"
+          more="https://prototypethreejs.netlify.app/"
         />
         <ProjectItem
           title="Weather App"
