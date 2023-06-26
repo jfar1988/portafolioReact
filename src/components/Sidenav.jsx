@@ -4,7 +4,7 @@ import {
   AiOutlineMenu,
   AiOutlineProject,
   AiOutlineMail,
-} from "react-icons/Ai";
+} from "react-icons/ai";
 import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
 
