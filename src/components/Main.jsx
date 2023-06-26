@@ -1,12 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import {
-  FaTwitter,
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedin,
-} from "react-icons/fa";
-import { AiFillGithub } from "react-icons/Ai";
+import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 const Main = () => {
   return (
     <div id="main">
@@ -47,7 +41,7 @@ const Main = () => {
               <FaTwitter className="cursor-pointer" size={20} />
             </a>
             <a href="https://github.com/jfar1988">
-              <AiFillGithub className="cursor-pointer" size={20} />
+              <FaGithub className="cursor-pointer" size={20} />
             </a>
             <a href="https://www.instagram.com/juanfaguilarr/">
               <FaInstagram className="cursor-pointer" size={20} />
