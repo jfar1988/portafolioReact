@@ -4,21 +4,23 @@ import weather from "../assets/weather.png";
 
 const Projects = () => {
   return (
-    <div id="projects" className="max-w-[1366] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e]">
+    <div id="projects" className="py-16">
+      <h1 className="text-4xl font-bold text-center text-[#001b5e] pb-16">
         Projects
       </h1>
-      <p className="text-center py-8">
-        Proyectos realizados con React, JavaScript, NodeJS, ThreeJs, Redux,
-        Props, Tailwindcss entre otros. Proyectos personales que demuestran mi
-        gran interes por el area de FullStack Development y Diseño de personajes
-        3d con sus respectivos movimientos.
+
+      <p className="pb-8 px-24 text-justify">
+        Projects carried out with React, JavaScript, NodeJS, ThreeJs, Redux,
+        Props, Tailwindcss, among others. Personal projects that showcase my
+        great interest in the field of FullStack Development and 3D character
+        design with their respective animations.
       </p>
-      <div className="grid sm:grid-cols-2 gap-12">
+      <div className="grid sm:grid-cols-2 gap-12 px-24">
         <ProjectItem
           title="Rick and Morty"
           image="https://i.ytimg.com/vi/jQzLjISEeas/maxresdefault.jpg"
           more="https://enchanting-bienenstitch-dbc69b.netlify.app/"
+          info="rick an morty... más info"
         />
         <ProjectItem
           title="Pokemon"
