@@ -18,7 +18,7 @@ const Projects = () => {
       <div className="grid sm:grid-cols-2 gap-12 px-24">
         <ProjectItem
           title="Traventhia App"
-          image="https://private-user-images.githubusercontent.com/111100025/353700477-b2964015-d58b-4909-98a0-fe31f5081a5a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzgyNjc2NDksIm5iZiI6MTczODI2NzM0OSwicGF0aCI6Ii8xMTExMDAwMjUvMzUzNzAwNDc3LWIyOTY0MDE1LWQ1OGItNDkwOS05OGEwLWZlMzFmNTA4MWE1YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEzMFQyMDAyMjlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mNjUwYjQyYzhmOTA0OTg0Y2I5Yzg1M2RhN2JhNDUzMTA3YzdjMzgwMTE3YmQ1M2E1Mjk0YzQxZWFhYmQ0YjFhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.xfcSqwwf_KLyLqH6P742c5QCv46rAs2-L9G3WzRrT24"
+          image="/previous.png"
           more="https://traventhia.netlify.app/"
         />
         <ProjectItem
